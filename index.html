@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beauty salon</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fontawesome.com/icons/instagram?f=brands&s=solid" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,500;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+   <header id="header">
+
+        <div class="container">
+
+            <div class="flex">
+
+            <a href="index.html"><img class="logo" src="img/logo-inverse-250x111.png" alt=""></a>
+
+                <nav class="rd-navbar-main-element">
+                    <ul>
+                        <li><a class="rd-navbar" href="">ABOUT</a></li>
+                        <li><a class="rd-navbar" href="">PRICING</a></li>
+                        <li><a class="rd-navbar" href="">CONRACTS</a></li>
+                    </ul>
+                    <div class="btn-networks">
+                        <a href="#" class="bd icon icon-inst"><img src="img/instagram.png" alt="" class="icons-img" srcset=""></a>
+                        <a href="#" class="bd icon icon-twitte"><img src="img/twitter.png" alt="" class="icons-img" srcset=""></a>
+                        <a href="#" class="bd icon icon-face"><img src="img/facebook.png" alt="" class="icons-img" srcset=""></a>
+                        <a href="#" class="bd icon icon-face"><img src="img/youtube.png" alt="" class="icons-img" srcset=""></a>
+                    </div>
+                </nav>
+
+            </div><!--Flex-->
+
+        </div><!--container-->
+   </header>
+   <button class="scrollTop" onclick="backTop()">
+    <img src="img/arrow-up-o.svg" alt="">
+   </button>
+
+   <section class=" observe hidden banner-section">
+    
+        <div class=" banner">
+            <div class="modern-text text-center">
+    
+                <div class="big-text">
+                    <i class="gg-border-style-solid"></i>
+                    <h1>FASHION & STYLE</h1>
+                </div>
+    
+    
+                <h5>Curl Hair Salon, established in 1999, is an oasis of beauty, hair <br>
+                indulgence, and the synonym of stylish haircuts.</h5>
+            </div>
+        </div>
+    
+        
+   </section><!--banner--> 
+
+   <section class="hidden observe section bg-secondar" style="
+   z-index: 1;
+   position: relative;
+">
+        <div class="container">
+            <form class="form-1" action="">
+
+               <div class="form-wrap">
+                    <h2>NAME</h2>
+                    <div class="input-box">
+                        <input required type="text" id="name" placeholder="">
+                        <label for="name">Your name</label>
+                    </div>
+                </div>
+
+                <div class="form-wrap">
+                    <h2>PHONE</h2>
+                    <div class="input-box">
+                        <input required type="text" id="phone" placeholder="">
+                        <label for="phone">Your phone number</label>
+                    </div>
+                </div>
+
+                <div class="form-wrap">
+                    <h2>DATE</h2>
+                    <div class="input-box">
+                        <input required type="date" id="date" placeholder="">
+                        <label for="date"></label>
+                    </div>
+                </div>
+
+                <div class="form-button">
+                    <button class="button">
+                       <h2>MAKE AN APPOINTMENT</h2> 
+                </div>
+
+            </form>
+        </div>
+   </section><!-- bg-secondar -->
+   <section class="observe hidden bg-info">
+
+    <div class="container-info">
+        <div class="info">
+            <h2>FEATURED OFFERS</h2>
+            <h5>We offer a complete range of hair services including haircuts & styling, coloring, eyebrow<br>
+                and eyelash tinting, perming, hair straightening, and a lot more.</h5>
+        </div>
+    </div><!--container-info-->
+
+    <div class="row-40">
+        <div class="row">
+            <div class="img1">
+                <img src="img/team-minimal-1-370x395.jpg" alt="">
+
+                <ul class="figure">
+                    <li>
+                        <a class="button-a" href=""> BOOK NOW</a>
+                    </li>
+                </ul>
+
+
+                <div class="jobs">
+                   <h4> <a class="jobs-a" href="#">HAIRCUTS</a> </h4> 
+                    <h6>CREATING YOUR IMAGE</h6>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="row">
+            <div class="img2">
+                <img src="img/team-minimal-2-370x395.jpg" alt="">
+                <ul class="figure">
+                    <li>
+                        <a class="button-a"  href=""> BOOK NOW</a>
+                    </li>
+                </ul>
+                
+                <div class="jobs">
+                  <h4> <a class="jobs-a" href="#">HAIRSTYLES</a></h4> 
+                    <h6>ACHIEVING THE BEST LOOK</h6>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="row">
+            <div class="img3">
+                <img src="img/team-minimal-3-370x395.jpg" alt="">
+
+                <ul class="figure">
+                    <li>
+                        <a  class="button-a" href="">BOOK NOW</a>
+                    </li>
+                </ul>
+
+                <div class="jobs">
+                   <h4> <a class="jobs-a" href="#">COLORING</a> </h4> 
+                    <h6>ANY COLORS YOU CAN IMAGINE</h6>
+                </div>
+
+
+            </div>
+        
+        </div>
+
+    </div>
+
+   </section><!--bg-info-->
+
+   <section class="observe hidden bg-off">
+    <div class="imgOff">
+        <!-- <img src="img/parallax-img-1.jpg" alt="" style="display: block;
+    transform: scale(1.5); height: 313px;"> -->
+        
+    </div>
+
+    <div class="conteinerInfo">
+        <div class="infoOff">
+            <h4>ONLY 3 DAYS</h4>
+
+            <h1>
+                20% OFF HAIRSTYLING SERVICES
+            </h1>
+
+            <ul class="divButtonOff">
+                <li>
+                    <a class="b1 buttonOff"  href=""> VIEW MORE</a>
+                </li>
+            </ul>
+
+        </div>
+    </div>
+   </section><!--bg-off-->
+
+   <section class="  bg-portfolio">
+   
+    <div class="portfolio">  
+        <h1>
+            OUR PORTFOLIO   
+        </h1>
+        <h6>
+            Check out the full portfolio of our works including haircuts, hair extensions, and <br>
+            more. Everything you see here was performed by our stylists and hairdressers.
+        </h6>
+    </div>
+
+    <div class="grid">
+        <div class="col-12"> <img class="imgZoom" src="img/gallery-1-463x383.jpg" alt="Models">  
+            <div class="zoom">
+                <a href="#" data-modal="modal1" class="a-zoom">ZOOM</a>
+
+            </div>
+
+
+            <div id="modal1" class="modal">
+    
+                <div class="modal-content">
+                    <img class="imgZoom" src="img/gallery-1-463x383.jpg" alt="">
+    
+                </div>
+            </div>
+
+
+        </div>
+        <div class="col-12"> <img class="imgZoom" src="img/gallery-2-463x383.jpg" alt="Models">  
+            <div class="zoom">
+                <a href="#" data-modal="modal2" class="a-zoom">ZOOM</a>
+
+            </div>
+
+
+            <div id="modal2" class="modal">
+
+                <div class="modal-content">
+                    <img class="imgZoom" src="img/gallery-2-463x383.jpg" alt="">
+
+                </div>
+            </div>
+
+
+        </div>
+        <div class="col-12"> <img class="imgZoom" src="img/gallery-3-463x383.jpg" alt="Models">  
+            <div class="zoom">
+                <a href="#" data-modal="modal3" class="a-zoom">ZOOM</a>
+
+            </div>
+
+
+            <div id="modal3" class="modal">
+    
+                <div class="modal-content">
+                    <img class="imgZoom" src="img/gallery-3-463x383.jpg" alt="">
+    
+                </div>
+            </div>
+
+
+        </div>
+        <div class="col-12"> <img class="imgZoom" src="img/gallery-12-463x383.jpg" alt="Models"> 
+            <div class="zoom">
+                <a href="#" data-modal="modal4" class="a-zoom">ZOOM</a>
+
+            </div>
+
+
+            <div id="modal4" class="modal">
+
+                <div class="modal-content">
+                    <img class="imgZoom" src="img/gallery-12-463x383.jpg" alt="">
+
+                </div>
+            </div>
+
+
+        </div>
+        <div class="col-12"> <img class="imgZoom" src="img/gallery-9-463x383.jpg" alt="Models">  
+            <div class="zoom">
+                <a href="#" data-modal="modal5" class="a-zoom">ZOOM</a>
+
+            </div>
+
+
+            <div id="modal5" class="modal">
+
+                <div class="modal-content">
+                    <img class="imgZoom" src="img/gallery-9-463x383.jpg" alt="">
+
+                </div>
+            </div>
+
+
+        </div>
+        <div class="col-12"> <img class="imgZoom" src="img/gallery-13-463x383.jpg" alt="Models"> 
+            <div class="zoom">
+                <a href="#" data-modal="modal6" class="a-zoom">ZOOM</a>
+
+            </div>
+
+
+            <div id="modal6" class="modal">
+
+                <div class="modal-content">
+                    <img class="imgZoom" src="img/gallery-13-463x383.jpg" alt="">
+
+                </div>
+            </div>
+
+        </div>
+        <div class="col-12"> <img class="imgZoom" src="img/gallery-11-463x383.jpg" alt="Models"> 
+            <div class="zoom">
+                <a href="#" data-modal="modal7" class="a-zoom">ZOOM</a>
+
+            </div>
+
+
+            <div id="modal7" class="modal">
+
+                <div class="modal-content">
+                    <img class="imgZoom" src="img/gallery-11-463x383.jpg" alt="">
+
+                </div>
+            </div>
+
+
+        </div>
+        <div class="col-12"> <img class="imgZoom" src="img/gallery-8-463x383.jpg" alt="Models">  
+            <div class="zoom">
+                <a href="#" data-modal="modal8" class="a-zoom">ZOOM</a>
+
+            </div>
+
+
+            <div id="modal8" class="modal">
+                <div class="modal-content">
+                    <img class="imgZoom" src="img/gallery-8-463x383.jpg" alt="">
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+   </section><!--bg-portfolio-->
+
+   <section class="observe hidden bg-bio">    <!-- bg-bio -->
+
+    <div class="bio-info">
+        
+        <div class="bio-img"></div>
+        
+        <div class="bio-des">
+            <h1>
+                ABOUT US
+            </h1>
+    
+            <h6 class="h6bio">Curl is one of the premier hair salons in Los Angeles, frequented not only <br> by women but by men and kids as well.</h6>
+    
+            <h6 class="h6bio">Our hair salon has earned an incredible reputation as our professional <br> team of hairstylists continues to work wonders on clients’ hair and <br> enhance their assets through our services.</h6>
+
+            <ul class="divButtonOff buttonBio" >
+                <li>
+                    <a href="#" class="b1 buttonOff ">VIEW MORE</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+   </section>    <!-- bg-bio -->
+
+   <section class="observe hidden section-lg">
+
+    <div class="col-13">
+
+        <div class="tabs-custom">
+            <ul class="nav-tabs">
+                <li class="li-nav">
+                    <a href="" content-id="HAIRCUTS" class="nav-link active">HAIRCUTS</a>
+                </li>
+                <li class="li-nav">
+                    <a href="" content-id="HAIRSTYLING" class="nav-link"> HAIRSTYLING</a>
+                </li>
+                <li class="li-nav">
+                    <a href="" content-id="COLORING" class="nav-link">COLORING</a>
+                </li>
+            </ul>
+
+            <div class="tab-contents ">
+
+                <div class="content content-show " id="HAIRCUTS">
+                
+                        <div class="pricingJobs">
+
+                            <h6 class="money">$10.89</h6>
+                            <a class="jobsSalon">LADIES’ HAIRCUT</a>
+                            <h5 class="descrition">Curl provides a long list of salon services that will have women looking fabulous. Women can <br> treat themselves to just a haircut or they can also choose from any of our expert services.</h5>
+
+                        </div>
+                        <div class="pricingJobs">
+
+                            <h6 class="money">$9.89</h6>
+                            <a class="jobsSalon">MEN’S HAIRCUT</a>
+                            <h5 class="descrition">A men’s haircut comes with a refreshing shampoo, stimulating scalp massage and an essential <br> oil hot towel treatment.</h5>
+
+                        </div>
+                        <div class="pricingJobs">
+
+                            <h6 class="money">$11.89</h6>
+                            <a class="jobsSalon">KIDS’ HAIRCUT</a>
+                            <h5 class="descrition">A trip to our salon is always enjoyable for kids of all ages. While we service clients of all ages, the <br> experience for children will make them feel special.</h5>
+
+                        </div>
+                        <div class="pricingJobs">
+
+                            <h6 class="money quebra">$8.89</h6>
+                            <a class="jobsSalon quebra">SENIOR HAIRCUT</a>
+                            <h5 class="descrition quebra">Our staff puts a great amount of pride in our senior haircut service as we believe people simply <br> get better with age. Style and elegance can be yours at discounted senior prices.</h5>
+
+                        </div>
+               
+                </div><!-- HAIRCUTS -->`
+
+                <div class="content" id="HAIRSTYLING">
+                  
+                        <div class="pricingJobs">
+
+                            <h6 class="money">$20.89</h6>
+                            <a class="jobsSalon">BLOWOUT</a>
+                            <h5 class="descrition">A full blowout service at Curl includes two washes, one wash using clarifying shampoo, and the <br> other is completed with a Blowout Shampoo and thermal protectant.</h5>
+
+                        </div>
+                        <div class="pricingJobs">
+
+                            <h6 class="money">$16.89</h6>
+                            <a class="jobsSalon">CURLS</a>
+                            <h5 class="descrition">Enjoy a great shape with a customized curly cut, trim or shaping that's designed to bring out the <br> best in your curls and express your individuality.</h5>
+
+                        </div>
+                        <div class="pricingJobs">
+
+                            <h6 class="money">$15.89</h6>
+                            <a class="jobsSalon">UPDO</a>
+                            <h5 class="descrition">An updo is a hairstyle that is completely pinned up. Whether it is a high ponytail with braiding <br> included, a low side bun with twists, or anything in between, we can manage it.</h5>
+
+                        </div>
+                        <div class="pricingJobs">
+
+                            <h6 class="money quebra">$14.89</h6>
+                            <a class="jobsSalon quebra">EVENT HAIRSTYLING</a>
+                            <h5 class="descrition quebra">If you have a special event coming up, then our event styling services for your hair are just what <br> you need. Our team of stylists will make you look your best.</h5>
+
+                        </div>
+               
+                </div><!-- HAIRSTYLING -->
+
+                <div class="content" id="COLORING">
+        
+                        <div class="pricingJobs">
+
+                            <h6 class="money">$10.89</h6>
+                            <a class="jobsSalon">ALL-OVER HAIR COLOR</a>
+                            <h5 class="descrition">All -Over Hair Color is a single-process hair color with scalp-to-ends application, also known as <br> a “solid color” service. Price depends on hair length.</h5>
+
+                        </div>
+                        <div class="pricingJobs">
+
+                            <h6 class="money">$19.89</h6>
+                            <a class="jobsSalon">INOA COLOR</a>
+                            <h5 class="descrition">The ultimate in ammonia-free color that is gentler and healthier on your scalp. We have 22 <br> patents for a color that is pure, vibrant and more beautiful than ever.</h5>
+
+                        </div>
+                        <div class="pricingJobs">
+
+                            <h6 class="money">$11.89</h6>
+                            <a class="jobsSalon">RETOUCH LIGHTENER (INCLUDES TONER)</a>
+                            <h5 class="descrition">This service is ideal for maintaining an all-over blonde look. Toner guarantees an excellent result. <br> Price depends on hair length.</h5>
+
+                        </div>
+                        <div class="pricingJobs">
+
+                            <h6 class="money quebra">$16.89</h6>
+                            <a class="jobsSalon quebra">6 FOIL HIGHLIGHT WITH HAIRCUT & BLOW-OUT</a>
+                            <h5 class="descrition quebra">This is a great service for a first-time highlight. Adds some highlight in the hairline and part. <br> Limited to a total of 6 foils. Includes haircut and styling.</h5>
+
+                        </div>
+      
+                </div><!-- COLORING -->
+
+            </div>
+        </div>
+    </div>
+
+   </section>    <!-- section-lg -->
+
+   <footer class="section section-end">
+
+    <div class="container container-end">
+        <div class="row15"><img src="img/logo-inverse-250x111.png" alt=""></div>
+        <div class="row15">
+        <ul class="row15ul">
+            <li>
+                <a href="#">PRICING</a>
+            </li>
+            <li>
+                <a href="#">BLOG</a>
+            </li>
+            <li>
+                <a href="#">CONTACTS</a>
+            </li>
+            <li>
+                <a href="#">GALLERY</a>
+            </li>
+            <li>
+                <a href="#">ABOUT</a>
+            </li>
+        </ul></div>
+        <div class="row15">
+            <ul class="social-list">
+                <a href="#" class="b2 icon icon-social"><img class="img-social" src="img/facebook.png" alt=""></a>
+                <a href="#" class="b2 icon icon-social"><img class="img-social" src="img/instagram.png" alt=""></a>
+                <a href="#" class="b2 icon icon-social"><img class="img-social" src="img/youtube.png" alt=""></a>
+                <a href="#" class="b2 icon icon-social"><img class="img-social" src="img/twitter.png" alt=""></a>
+                <a href="#" class="b2 icon icon-social"><img class="img-social" src="img/pinterest-p-brands-solid.svg" alt=""></a>
+            </ul>
+        </div>
+    </div>
+    <p>©  2024 Curl. All Rights Reserved. </p>
+   </footer>
+
+   <script src="script.js"></script>
+</body>
+</html>
+
+
