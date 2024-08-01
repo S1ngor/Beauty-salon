@@ -1175,7 +1175,9 @@ p{
 
 @media screen and (max-width:375px){
 
-    
+    .quebra{
+        display:flex;
+    }
 
     .row15{
         margin-top: -50px;
